@@ -1,0 +1,20 @@
+// =====================================
+// WRAPPING MIXINS
+// to contain contents on larger screens
+//pour contenir du contenu sur des écrans plus grands
+// =====================================
+
+@mixin large-wrapping {
+  max-width: $large-container-width;
+  margin: 0 auto;
+}
+
+@mixin medium-wrapping {
+  max-width: $medium-container-width;
+  margin: 0 auto;
+}
+
+@mixin small-wrapping {
+  max-width: $small-container-width;
+  margin: 0 auto;
+}
